@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* custom variables */
 :root {
     --text-color: #FBF9F1;
