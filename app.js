@@ -185,11 +185,15 @@ document
 		// Send email
 		emailjs.send('service_obl2as7', 'template_fqwk5lr', templateParams).then(
 			function (response) {
-				swal('Your message has been successfully sent!')
+				alert('Your message has been successfully sent!')
 				resetForm() // Reset form fields
 			},
 			function (error) {
-				swal('Oops!', 'Something went wrong, you should choose again!', 'error')
+				alert(
+					'Oops!',
+					'Something went wrong, you should choose again!',
+					'error'
+				)
 			}
 		)
 	})

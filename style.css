@@ -82,7 +82,7 @@ span {
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 
 .logo span {
@@ -91,7 +91,7 @@ span {
 
 .logo img {
     width: 30px;
-    margin-right: 6px;
+    margin-left: 20px;
 }
 
 .navbar {
