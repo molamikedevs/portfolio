@@ -14,11 +14,11 @@
 
 /* custom variables */
 :root {
-    --text-color: #333;
-    --cta-color: #35374B;
-    --hover-color: #00224D;
-    --bg-color: #fff;
-    --secondary-bg-color: #ddd;
+    --text-color: #6b6b6b;
+    --cta-color: #b7b7b7;
+    --hover-color: #6b6b6b;
+    --bg-color: #021315;
+    --secondary-bg-color: #610627;
     --bg-font: 2.5rem;
     --normal-font: 2rem;
     --h2-font: 3rem;
@@ -80,11 +80,12 @@ span {
 }
 
 .logo span a {
-    color: var(--hover-color)
+    color:var(--hover-color);
+    font-size: 32px;
 }
 
 .logo span {
-    color: var(--hover-color);
+    color:var(--hover-color);
     font-size: 32px;
     cursor: pointer;
 }
@@ -102,12 +103,12 @@ span {
 }
 
 .navbar a:hover {
-    color: #FAA300;
+    color: #610627;
    
 }
 
 .navbar a.active {
-    color: #FAA300
+    color: #610627;
 }
 
 #menu-icon {
