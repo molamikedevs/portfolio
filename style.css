@@ -1110,8 +1110,8 @@ footer a i {
         height: 5px;
     }
 
-    body > footer > p {
-        font-size: .6rem;
+    footer p {
+        font-size: 1.5rem;
     }
 
     .filter-buttons .btn {
