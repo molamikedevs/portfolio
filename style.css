@@ -168,7 +168,7 @@ section {
     font-weight: 700;
     font-family: "Single Day", cursive;
     color: var(--hover-color);
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }
 
 .animation-text {
@@ -182,7 +182,13 @@ section {
     display: inline-flex;
     margin: 0;
     vertical-align: top;
+    color: var(--text-color);
     
+}
+
+.animation-text span {
+    color: var(--text-color);
+    font-family: "Edu NSW ACT Foundation", cursive;
 }
 
 .animation-text h3 .word{
@@ -221,11 +227,13 @@ section {
     font-weight: 600;
     font-size: 1rem;
     color: var(--text-color);
+    font-family: "Edu NSW ACT Foundation", cursive;
 }
 
 .info-box span {
-    font-size: .9rem;
+    font-size: .8rem;
     color: var(--text-color);
+   
 }
 
 .btn-box {
@@ -896,9 +904,9 @@ section {
     padding: .7rem;
 }
 
-/* .contact form textarea {
+.contact form textarea {
     resize: none;
-} */
+}
 
 .formBtn {
     display: flex;
@@ -922,6 +930,8 @@ footer {
 
 footer p {
     color: var(--text-color);
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 1.5rem;
 }
 
 footer a {
@@ -930,12 +940,13 @@ footer a {
     color: var(--text-color);
     background: var(--hover-color);
     padding: .6rem;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 footer a i {
     font-size: 1rem;
     background: var(--secondary-bg-color);
+    border-radius: 50%;
 }
 
 
@@ -1018,6 +1029,10 @@ footer a i {
         transform: rotate(-180deg);
     }
 
+    hr {
+        height: 7px;
+    }
+
     .navbar {
         display: flex;
         position: absolute;
@@ -1090,7 +1105,10 @@ footer a i {
     .contact form {
         max-width: 90%;
     }
-
+ 
+    hr {
+        height: 5px;
+    }
 
     body > footer > p {
         font-size: .6rem;
