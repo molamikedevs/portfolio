@@ -889,7 +889,7 @@ section {
     text-align: center;
     max-width: 50rem;
     margin: 1rem auto;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     
     
 }
@@ -899,9 +899,11 @@ section {
     width: 100%;
     color: #fff;
     background: var(--cta-color);
-    margin-bottom: .8rem;
+    margin-bottom: .5rem;
     border-radius: 5px;
-    padding: .7rem;
+    padding: .5rem;
+    
+
 }
 
 
@@ -924,6 +926,7 @@ section {
     cursor: pointer;
     font-size: .8rem;
 }
+
 
 footer {
     display: flex;
@@ -1028,8 +1031,17 @@ footer a i {
     }
 
     .contact form {
-        max-width: 80%;
+        max-width: 100%;
+        padding: 0 1rem;
+        margin: 1rem 1rem 0.5rem;
     }
+
+.contact form input,
+.contact form textarea {
+    margin-bottom: 0.4rem;
+    padding: 0.5rem;
+
+}
 
     #menu-icon.bx-x {
         transform: rotate(-180deg);
@@ -1109,8 +1121,16 @@ footer a i {
     }
 
     .contact form {
-        max-width: 90%;
+        padding: 0 1rem;
+        margin: 1rem 0.5rem 0.5rem;
     }
+
+.contact form input,
+.contact form textarea {
+    margin-bottom: 0.3rem;
+    padding: 0.4rem;
+
+}
  
     hr {
         height: 5px;
