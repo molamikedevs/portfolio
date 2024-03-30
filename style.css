@@ -873,16 +873,16 @@ section {
 .contact form input,
 .contact form textarea {
     width: 100%;
-    color: #f4f4f4;
+    color: #fff;
     background: var(--cta-color);
     margin-bottom: .8rem;
     border-radius: 5px;
     padding: .7rem;
 }
 
-.contact form textarea {
+/* .contact form textarea {
     resize: none;
-}
+} */
 
 .formBtn {
     display: flex;
