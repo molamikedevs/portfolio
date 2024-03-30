@@ -40,6 +40,10 @@
     border-radius: .5rem;
 }
 
+body {
+    touch-action: manipulation;
+}
+
 hr {
     border: none;
     height: 10px;
@@ -51,6 +55,7 @@ hr {
       #888 20px
     );
   }
+
 
 
 /* header styles */
@@ -889,9 +894,9 @@ section {
     text-align: center;
     max-width: 50rem;
     margin: 1rem auto;
-    margin-bottom: 0.5rem;
-    
-    
+    margin-bottom: 0.5rem; 
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .contact form input,
@@ -902,14 +907,17 @@ section {
     margin-bottom: .5rem;
     border-radius: 5px;
     padding: .5rem;
-    
-
 }
 
 
 .contact form input::placeholder,
 .contact form textarea::placeholder {
     color: var(--text-color); 
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    font-size: 16px; 
 }
 
 .contact form textarea {
@@ -1129,7 +1137,6 @@ footer a i {
 .contact form textarea {
     margin-bottom: 0.3rem;
     padding: 0.4rem;
-
 }
  
     hr {
