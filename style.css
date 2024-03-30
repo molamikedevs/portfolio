@@ -904,6 +904,12 @@ section {
     padding: .7rem;
 }
 
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+    color: var(--text-color); 
+}
+
 .contact form textarea {
     resize: none;
 }
@@ -916,7 +922,7 @@ section {
 
 .formBtn .btn {
     cursor: pointer;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 footer {
